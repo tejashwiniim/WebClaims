@@ -1,0 +1,9 @@
+.go-button {
+    color: white;
+    background-color: #005986;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    margin-top: 12px;
+}

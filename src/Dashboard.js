@@ -75,13 +75,13 @@ export default function Dashboard() {
             marginTop: 15,
           }}
         >
-          <InputLabel
+          {/* <InputLabel
             className={classes.inputLabel}
             ref={inputLabel}
             id="demo-simple-select-label"
           >
             123456789
-          </InputLabel>
+          </InputLabel> */}
           <Select
             className={classes.select}
             labelId="demo-simple-select-label"

@@ -4,12 +4,12 @@ import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
 import StepLabel from "@mui/material/StepLabel";
 import { makeStyles } from "@material-ui/styles";
-import "./Claims.css";
+import "../../style/claims/Claims.css";
 
 const steps = [
   { id: 1, label: "Step 1", below: "Services & Diagnosis" },
   { id: 2, label: "Step 2", below: "Providers" },
-  { id: 3, label: "Step 3", below: "Patient" },
+  { id: 3, label: "Step 3", below: "Patient" }, 
   { id: 4, label: "Step 4", below: "Attachments" },
   { id: 5, label: "Step 5", below: "Review" },
   { id: 6, label: "Step 6", below: "Submission" },
