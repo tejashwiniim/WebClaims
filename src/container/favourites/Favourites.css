@@ -1,0 +1,8 @@
+.favourites {
+  margin-top: 30px;
+}
+
+.favourites-card-container {
+  display: flex;
+  flex-direction: row;
+}

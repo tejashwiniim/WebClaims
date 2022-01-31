@@ -10,23 +10,20 @@ export function ClaimsHeader() {
             <p>Viewing claims for: </p>
             <div>
                 Tin:
-                <Select placeholder='1234567' style={{
-                    height: "40px"
-                }}>
+                <Select placeholder='1234567' >
                     <option value='option1'>Option 1</option>
                     <option value='option2'>Option 2</option>
                     <option value='option3'>Option 3</option>
                 </Select>
             </div>
-            <div>
+            <div >
                 Plan Type:
-                <Select placeholder='Medicaid' style={{
-                    height: "40px"
-                }}>
+                <Select placeholder='Medicaid' style={{marginLeft:"-20px"}}> 
+                
                     <option value='option1'>Option 1</option>
                 </Select>
             </div>
-                <ClaimsButton>Go</ClaimsButton>
+                <ClaimsButton>GO</ClaimsButton>
             <div>
             </div>
             <div></div>

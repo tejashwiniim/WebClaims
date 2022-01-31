@@ -1,28 +1,28 @@
 .sidenav {
-    height: 100%;
-    width: 20%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background: #267298;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    color: white;
-    display: block;
-  }
-  
-  .sidenav .a:hover {
-    color: black;
-  }
-  
-  .sidenav a:first-child {
-    margin-top: 86px;
-  }
+  height: 1090px;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #002e5b;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  display: block;
+}
+
+.sidenav .a:hover {
+  color: black;
+}
+
+.sidenav a:first-child {
+  margin-top: 86px;
+}
