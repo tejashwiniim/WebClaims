@@ -6,7 +6,6 @@ import CardGroup from "react-bootstrap/CardGroup";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Typography from "@mui/material/Typography";
 import { Row, Col } from "react-bootstrap";
-import { ListGroup } from "react-bootstrap";
 import { TextField } from "@mui/material";
 import "./CreateClaims.css";
 export function CreateClaims() {

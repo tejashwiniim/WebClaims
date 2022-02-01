@@ -17,7 +17,7 @@ export function FavouritesCard(props) {
           boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.25)",
         }}
       >
-<FavoriteIcon style={{position:"absolute",marginLeft:340,marginTop:-10, color:"#D9021B", width:20, height:19}}></FavoriteIcon>
+<FavoriteIcon style={{position:"absolute",marginLeft:360,marginTop:-10, color:"#D9021B", width:20, height:19}}></FavoriteIcon>
        
           <b
           style={{
@@ -27,9 +27,9 @@ export function FavouritesCard(props) {
             fontFamily: "Roboto",
             fontSize: "12px",
             fontStyle: "normal",
-            fontWeight: "400",
+            // fontWeight: "400",
           }}
-        > Name: {name}</b>
+        > {name}</b>
 <br></br>
         <b
           style={{
