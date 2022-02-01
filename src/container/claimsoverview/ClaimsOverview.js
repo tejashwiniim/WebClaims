@@ -32,14 +32,15 @@ export function ClaimsOverview() {
         const startDate = dateRange.startDate;
         const endDate = dateRange.endDate;
         
-        axios.get("https://jsonplaceholder.typicode.com/todos/1").then(res => {
+        axios.get("https://pa26281bz6.execute-api.us-east-1.amazonaws.com/dev/claimOverview").then(res => {
             setLoading(false);
+            const {pending, rejected, disputed, denied, draft} = res.data.claimOverview;
             setClaimsStatusCount({
-                rejectedClaims: 10,
-                deniedClaims: 14,
-                disputedClaims: 15,
-                pendingClaims: 21,
-                draftClaims: 22
+                rejectedClaims: rejected,
+                deniedClaims: denied,
+                disputedClaims: disputed,
+                pendingClaims: pending,
+                draftClaims: draft
             })
         }).catch(error => {
             setLoading(false);
