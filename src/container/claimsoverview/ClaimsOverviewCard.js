@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 export function ClaimsOverviewCard(props) {
     const {title, value, borderTopColor} = props;
     return (
-        <Card border=" 1px solid #DDDDDD" style={{ width: "236px", marginRight:20 }}>
+        <Card border=" 1px solid #DDDDDD" style={{width: "236px", marginRight:20 }}>
               <Card.Header
                 style={{
                   height: 140,
