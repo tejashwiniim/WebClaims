@@ -29,13 +29,13 @@ export function ClaimsOverviewCard(props) {
                     fontFamily: "Roboto",
                     fontSize: "40px",
                     fontStyle: "normal",
-                    fontWeight: "400",
+                    fontWeight: "500",
                   }}
                 >
                   {value}
                 </b>
                 <br></br>
-                <a href='#'>View &gt;&gt; </a>
+                <a href='#' style={{textDecoration:"none", position:"absolute", marginTop:15, marginLeft:-15, fontSize:12}}>View &gt;&gt; </a>
               </Card.Header>
             </Card>
     )

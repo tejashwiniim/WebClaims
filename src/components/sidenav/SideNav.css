@@ -19,8 +19,8 @@
   display: block;
 }
 
-.sidenav .a:hover {
-  color: black;
+.sidenav a:hover {
+  background-color: #c7e3ff;
 }
 
 .sidenav a:first-child {
