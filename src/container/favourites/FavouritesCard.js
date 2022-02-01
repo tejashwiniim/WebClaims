@@ -27,9 +27,9 @@ export function FavouritesCard(props) {
             fontFamily: "Roboto",
             fontSize: "12px",
             fontStyle: "normal",
-            fontWeight: "400",
+            // fontWeight: "400",
           }}
-        > Name: {name}</b>
+        > {name}</b>
 <br></br>
         <b
           style={{
