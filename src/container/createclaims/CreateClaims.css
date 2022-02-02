@@ -1,6 +1,6 @@
 .cardheader {
   height: 40px;
-  width: 406px;
+  width: 330px;
   font-size: 14px;
   font-style: normal;
   font-weight: normal;
@@ -13,7 +13,7 @@
 .card-style {
   margin-top: -10px;
   height: 200px;
-  width: 406px;
+  width: 330px;
   margin-bottom: 10px;
 }
 .create-claims p {

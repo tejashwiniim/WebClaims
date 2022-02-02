@@ -42,7 +42,7 @@ export function CreateClaims() {
               <Card.Body>
                 <TextField
                   style={{
-                    width: "346px",
+                    width: "300px",
                     height: "40px",
                     fontSize: "12px",
                   }}
@@ -68,7 +68,7 @@ export function CreateClaims() {
                     "text-align": "right",
                     color: "#267298",
                     marginTop: 80,
-                    marginLeft: 293,
+                    marginLeft: 200,
                   }}
                 >
                   Advanced Search

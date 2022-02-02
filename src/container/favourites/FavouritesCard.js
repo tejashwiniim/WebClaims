@@ -4,7 +4,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 export function FavouritesCard(props) {
   const { name, proc, dx } = props;
   return (
-    <Card border=" 1px solid #E5E5E5" style={{ width: "406px", marginRight:20 }}>
+    <Card border=" 1px solid #E5E5E5" style={{ width: "306px", marginRight:20 }}>
       <Card.Body
         style={{
           height: 130,
@@ -17,7 +17,7 @@ export function FavouritesCard(props) {
           boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.25)",
         }}
       >
-<FavoriteIcon style={{position:"absolute",marginLeft:360,marginTop:-10, color:"#D9021B", width:20, height:19}}></FavoriteIcon>
+<FavoriteIcon style={{position:"absolute",marginLeft:260,marginTop:-10, color:"#D9021B", width:20, height:19}}></FavoriteIcon>
        
           <b
           style={{
@@ -60,7 +60,7 @@ export function FavouritesCard(props) {
           Dx: {dx}
         </b>
         <br></br>
-        <a style={{position:"absolute",textDecoration:"none", marginLeft:260,marginTop:25 }} href="#">View Details &gt;&gt; </a>
+        <a style={{position:"absolute",textDecoration:"none", marginLeft:180,marginTop:20 }} href="#">View Details &gt;&gt; </a>
       </Card.Body>
     </Card>
   );
